@@ -18,4 +18,8 @@ main() {
   print(telefones.keys);
   print(telefones.entries);
   print(telefones);
+
+  //Compila e executa sem problemas, no entando vai retornar null pois 
+  //precisa passar a chave nesse caso.
+  print(telefones[1]);
 }
